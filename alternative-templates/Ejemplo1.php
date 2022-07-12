@@ -78,7 +78,7 @@
     }
     @media screen and (max-width: 460px) {
         .two-col .column {
-            max-width: 100% !important; 
+            max-width: 100% !important;
         }
         .two-col img {
             width: 100% !important;
@@ -127,13 +127,28 @@
                             </tr>
                         -->
                             <tr>
-                                <td style="padding:10px 10px 0px 10px;font-family:Arial,sans-serif;font-size:24px;line-height:28px;font-weight:bold;background-color:#0f1a1e;">
-                                    <img src="#" alt="Logotipo de Empresa" width="658" alt="" style="width:100%;height:auto;">
+                                <td style="font-family:Arial,sans-serif;font-size:18px;line-height:28px;font-weight:bold; background-color:#0f1a1e;">
+                                    <table role="presentation" style="width:100%;border:0;border-spacing:0;color:white;text-decoration:none;">
+                                        <tr>
+                                            <td>
+                                                <h1 style="padding: 5px 10px; font-family:Rockwell; font-weight:bold;">Glacier</h1>
+                                            </td>
+                                            <td>
+                                                <a href="#" style="text-decoration: none; color:white;text-align:center"><h2 style="font-size:medium;">Home</h2></a>
+                                            </td>
+                                            <td>
+                                                <a href="#" style="text-decoration: none;color:white;text-align:center"><h2 style="font-size:medium; ">Service</h2></a>
+                                            </td>
+                                            <td>
+                                              <a href="#" style="text-decoration: none;color:white;text-align:center"><h2 style="font-size:medium;">Contect</h2></a>
+                                            </td>
+                                        </tr>
+                                    </table>
                                 </td>
                             </tr>
                             <tr>
-                                <td style="font-family:Arial,sans-serif;font-size:24px;line-height:24px;font-weight:bold; background-color:#0f1a1e;">
-                                    <p style="padding:20px;text-align:center;color:white;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, omnis. Voluptates laudantium fugit, tempore aut excepturi vitae est. Corrupti, distinctio corporis? Magnam officiis nobis laborum voluptas repudiandae error aut officia.</p>
+                                <td style="font-family:Arial,sans-serif;font-size:24px;line-height:28px;font-weight:bold; height:auto;background-image: url(https://images.unsplash.com/photo-1514527893004-f77d3d773644?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bW91bnRhaW4lMjBjbG91ZHxlbnwwfHwwfHw%3D&w=1000&q=80);background-size:cover;">
+                                    <p style="padding:20px;text-align:center;color:white;">Presenta tu producto</p>
                                 </td>
                             </tr>
                             <tr>
