@@ -146,27 +146,58 @@
                                     </table>
                                 </td>
                             </tr>
-                            <tr>
-                                <td style="font-family:Arial,sans-serif;font-size:24px;line-height:28px;font-weight:bold; height:auto;background-image: url(https://images.unsplash.com/photo-1514527893004-f77d3d773644?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bW91bnRhaW4lMjBjbG91ZHxlbnwwfHwwfHw%3D&w=1000&q=80);background-size:cover;">
+                            <tr height="400px">
+                                <td background="https://images.unsplash.com/photo-1514527893004-f77d3d773644?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bW91bnRhaW4lMjBjbG91ZHxlbnwwfHwwfHw%3D&w=1000&q=80" style="font-family:Arial,sans-serif;font-size:24px;line-height:28px;font-weight:bold; height:auto;background-image: url(https://images.unsplash.com/photo-1514527893004-f77d3d773644?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bW91bnRhaW4lMjBjbG91ZHxlbnwwfHwwfHw%3D&w=1000&q=80);background-repeat: no-repeat;background-size: cover;text-align:center;">
                                     <p style="padding:20px;text-align:center;color:white;">Presenta tu producto</p>
+                                    <p style="padding:20px;color:white;font-size:14px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque molestiae praesentium accusamus doloribus explicabo inventore voluptatem, magni sequi repellat velit nesciunt qui in maxime nihil aliquid! Soluta, recusandae fugit?</p>
+                                    <p style="margin:0;font-family:Arial,sans-serif;"><a href="#" style="border: 2px solid white; text-decoration: none; padding: 10px 25px; color: #000000; border-radius: 4px; display:inline-block; mso-padding-alt:0;text-underline-color:#ffffff"><!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%;mso-text-raise:20pt">&nbsp;</i><![endif]-->
+                                        <span style="mso-text-raise:10pt;font-weight:bold;color:white;">Example Button</span><!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%">&nbsp;</i><![endif]--></a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="font-family:Arial,sans-serif;font-size:24px;line-height:28px;font-weight:bold; height:auto;text-align:center;">
+                                    <p style="padding: 5px 10px; font-family:Rockwell; font-weight:bold;font-size:40px;">Te traemos un nuevo Email</p>
+                                    <hr style="border: 1px solid #7fa7ba">
+                                    <p style="padding:20px;font-size:14px;width:80%;margin: 0 auto;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque molestiae praesentium accusamus doloribus explicabo inventore voluptatem, magni sequi repellat velit nesciunt qui in maxime nihil aliquid! Soluta, recusandae fugit?</p>
+                                    <p style="margin:0;font-family:Arial,sans-serif;"><a href="#" style="border: 2px solid #7fa7ba; text-decoration: none; padding: 10px 25px; color: #000000; border-radius: 4px; display:inline-block; mso-padding-alt:0;text-underline-color:#ffffff"><!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%;mso-text-raise:20pt">&nbsp;</i><![endif]-->
+                                        <span style="mso-text-raise:10pt;font-weight:bold;color:#7fa7ba;">Example Button</span><!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%">&nbsp;</i><![endif]--></a>
+                                        <a href="#" style="border: 2px solid #7fa7ba; text-decoration: none; padding: 10px 25px; color: #000000; border-radius: 4px; display:inline-block; mso-padding-alt:0;text-underline-color:#ffffff"><!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%;mso-text-raise:20pt">&nbsp;</i><![endif]-->
+                                        <span style="mso-text-raise:10pt;font-weight:bold;color:#7fa7ba;">Example Button</span><!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%">&nbsp;</i><![endif]--></a></p>
+                                </td>
+                            </tr>
+                            <tr style="background-color:#e8e5e5">
+                                <td style="font-family:Arial,sans-serif;font-size:24px;line-height:28px;font-weight:bold; height:auto;text-align:center;">
+                                        <p style="padding: 5px 10px; font-family:Rockwell; font-weight:bold;font-size:40px;">Servicios</p>
+                                        <hr style="border: 1px solid #7fa7ba">
+                                        <p style="padding:20px;font-size:14px;width:80%;margin: 0 auto;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque molestiae praesentium accusamus doloribus explicabo inventore voluptatem, magni sequi repellat velit nesciunt qui in maxime nihil aliquid! Soluta, recusandae fugit?</p>
+                                        
+                                        <p style="margin:0;font-family:Arial,sans-serif;">
+                                            <a href="#" style="border: 2px solid #7fa7ba; text-decoration: none; padding: 10px 25px; color: #000000; border-radius: 4px; display:inline-block; mso-padding-alt:0;text-underline-color:#ffffff;margin:15px"><!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%;mso-text-raise:20pt">&nbsp;</i><![endif]-->
+                                            <span style="mso-text-raise:10pt;font-weight:bold;color:#7fa7ba;">Icon</span><!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%">&nbsp;</i><![endif]--></a>
+                                            <a href="#" style="border: 2px solid #7fa7ba; text-decoration: none; padding: 10px 25px; color: #000000; border-radius: 4px; display:inline-block; mso-padding-alt:0;text-underline-color:#ffffff;margin:15px"><!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%;mso-text-raise:20pt">&nbsp;</i><![endif]-->
+                                            <span style="mso-text-raise:10pt;font-weight:bold;color:#7fa7ba;">Icon</span><!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%">&nbsp;</i><![endif]--></a>
+                                            <a href="#" style="border: 2px solid #7fa7ba; text-decoration: none; padding: 10px 25px; color: #000000; border-radius: 4px; display:inline-block; mso-padding-alt:0;text-underline-color:#ffffff;margin:15px"><!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%;mso-text-raise:20pt">&nbsp;</i><![endif]-->
+                                            <span style="mso-text-raise:10pt;font-weight:bold;color:#7fa7ba;">Icon</span><!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%">&nbsp;</i><![endif]--></a>
+                                        </p>
                                 </td>
                             </tr>
                             <tr>
                                 <!-- START FOOTER  Editar a conveniencia-->
-                                <table role="presentation" style="width:100%;border:0;border-spacing:0;">
+                                <table role="presentation" style="width:100%;border:0;border-spacing:0;background-color:#ffffff">
                                     <tr>
-                                        <td align= center>
-                                            <img src="#" alt="logo Corporativo" width="165px" height="auto" style="padding-top: 15px;margin:0 auto;paddig-right:5px">
+                                        <td align="center">
+                                            <img src="https://static.vecteezy.com/system/resources/thumbnails/005/058/880/small/abstract-logo-business-company-corporate-identity-vector.jpg" alt="logo Corporativo" width="165px" height="auto" style="padding-top: 15px;margin:0 auto;paddig-right:5px">
                                         </td>
                                         <td style="padding-right:5px;width:50%">
                                             <p>Preferencias de correo electrónico</p>
                                             <p>Establece tus preferencias de comunicación para que podamos enviarte correos electrónicos importantes.</p>
                                             <br>
                                             <p><a href="#">Anular suscripción</a>  <a href="#">Actualizar mis preferencias</a></p>
+                                        
                                         </td>
                                     </tr>
                                     <div class="footer" style="clear: both; margin-top: 10px; text-align: center; width: 100%;">
-                                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+                                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;background-color:white;" width="100%">
                                             <tr>
                                                 <td class="content-block powered-by" style="font-family: sans-serif; vertical-align: top; padding-bottom: 10px; padding-top: 10px; color: #999999; font-size: 12px; text-align: center;" valign="top" align="center">
                                                     Powered by <a href="#" style="color: #999999; font-size: 12px; text-align: center; text-decoration: none;">Enlace</a>.

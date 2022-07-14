@@ -21,3 +21,8 @@ Gran parte de las empresas grandes usan un formato para el correo en el cual a m
 ![alt text](plantilla-correo-automatizado.PNG "Ejemplo de correo automatizado")
 
 La plantilla consiste en una tabla ya moldeada para ir introduciendo el contenido( ya sean imagenes, enlaces, botones...) medianto los "rows" o <tr><td></td></tr> en el HTML, cada bloque de contenido es un row, por ejemplo el logotipo corproativo iria centrado arriba( se `puede ajustar dentro de la celdilla por supuesto) y a continuación se podria incorporar la información del correo, ya sea un email escrito a mano , o una notificacion automatizada como el informar a los clientes de un determinado descuento. A la hora de maquetar y usar imagenes ha de cuidarse el "width" de esta i la distribución. 
+
+###TIPS Y CONSEJOS###
+-Mantener el diseño simple,a menos complejidad con etiquetas y atributos mas simples mas seguro sera que vaya todo. Hay atributos que no estan 100% soportados, por lo que vale la pena probarlos en otros correo. 
+-En el tema de botones puede resultar interesante usar el span para darles forma o inclso meterlos como una imagen con enlace.
+-Evitar la propiedad background-color-> problemas en outlook y en thunderbird.
