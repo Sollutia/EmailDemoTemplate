@@ -13,18 +13,18 @@ $mail = new PHPMailer(true);
 
 try {
     //Server settings
-    $mail->SMTPDebug = SMTP::DEBUG_OFF;                      //Enable verbose debug output
+    $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'outlook.office365.com';                     //Set the SMTP server to send through
+    $mail->Host       = 'mail.sollutia.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'adria.wolfvenire@outlook.es';                     //SMTP username
+    $mail->Username   = 'ajorda';                     //SMTP username
     $mail->Password   = 'KK@ajo-159';                               //SMTP password
-    $mail->Port       = 993;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
-    $mail->SMTPSecure = 'PHPMailer::ENCRYPTION_TLS;';            //Enable implicit TLS encryption
+    $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+    $mail->SMTPSecure = 'PHPMailer::ENCRYPTION_SMTPS;';            //Enable implicit TLS encryption
 
     //Recipients
-    $mail->setFrom('adria.wolfvenire@outlook.es');
-    $mail->addAddress('adria.wolfvenire@outlook.es');     //Add a recipient
+    $mail->setFrom('ajorda@sollutia.com');
+    $mail->addAddress('ajorda@sollutia.com');     //Add a recipient
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
