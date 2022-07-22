@@ -30,4 +30,7 @@ La plantilla consiste en una tabla ya moldeada para ir introduciendo el contenid
 # PHPMAILER #
 En la carpeta "DemoEmailSender" se han se han colocado ua plantilla ejemplo simple para el PHPMAILER, la libreria se encuentra en la carpeta "PHPMailer-master" obtenida de la [pagina oficial de github de la libreria](https://github.com/PHPMailer/PHPMailer).
 
-Se ha colocado un ejemplo adicional del funcionamiento sobre como funciona PHPMailer en la version 5.0.0 para comprar 
+Se ha colocado un ejemplo adicional del funcionamiento sobre como funciona PHPMailer en la version 5.0.0 para comprar. 
+
+-Como Apunte el puerto estandar suele ser el 25, hay que tener cuidado con la encriptacion puesto que si el servidor no tiene hay que obiarlo y si tiene otro puede dar problemas para enviar.
+-Ademas para asignar contenido al cuerpo con formato HTML se recomienda usar la funcion de PHP "file_get_contents".
