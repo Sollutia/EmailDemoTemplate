@@ -15,21 +15,21 @@ try {
     //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_OFF;                      //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'mail.sollutia.com';                     //Set the SMTP server to send through
+    $mail->Host       = 'host';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'ajorda@sollutia.com';                               //SMTP username
-    $mail->Password   = 'KK@ajo-159';                               //SMTP password
-    $mail->Port       = 25;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
-    //$mail->SMTPSecure = 'PHPMailer::ENCRYPTION_TLS;';            //Enable implicit TLS encryption
+    $mail->Username   = 'miCorreo';                               //SMTP username
+    $mail->Password   = 'MiContraseña';                               //SMTP password
+    $mail->Port       = "Mi puerto";                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+    $mail->SMTPSecure = 'PHPMailer::ENCRYPTION_TLS;';            //Enable implicit TLS encryption
 
     //Recipients
-    $mail->setFrom('ajorda@sollutia.com');
-    $mail->addAddress('ajorda@sollutia.com');     //Add a recipient
+    $mail->setFrom('miCorreo');
+    $mail->addAddress('miCorreo');     //Add a recipient
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = 'Here is the subject';
-    $mail->Body = file_get_contents("Ejemplo1.php");
+    $mail->Subject = 'Titulo';
+    $mail->Body = "Contenido";
 
     $mail->send();
     echo 'Message has been sent';

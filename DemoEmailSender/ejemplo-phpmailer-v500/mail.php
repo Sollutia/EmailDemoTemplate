@@ -2,14 +2,14 @@
 // TODO: Passar a array el tocho de paràmetres
 // TODO: Afegir opció attachment. Vore alhambraguitarras.com contact_send.php
 function sendmailAUTH(){
-	$to="ajorda@sollutia.com";
-	$sender="ajorda@sollutia.com";
-	$subject="Here is the subject";
-	$body=file_get_contents("TemplatePokemon.php");
-	$smtpHost="mail.sollutia.com";
-	$smtpUser="ajorda@sollutia.com";
-	$smtpPass="KK@ajo-159";
-	$smtpPort=25;
+	$to="correoQueRecibe";
+	$sender="CorreoQueEnvia";
+	$subject="Titulo";
+	$body="contenido";
+	$smtpHost="host";
+	$smtpUser="miUsuario";
+	$smtpPass="miContraseña";
+	$smtpPort="Mi Puerto";
 	$smtpSecure="";
 		try{
 			require("class.phpmailer.php");
