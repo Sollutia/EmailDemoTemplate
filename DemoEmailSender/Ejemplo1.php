@@ -147,6 +147,7 @@
                                 </td>
                             </tr>
                             <tr height="400px">
+                                <!-- el img background no funciona correctamente en todos los correos, omitir o usar background-color para compensar -->
                                 <td background="https://images.unsplash.com/photo-1514527893004-f77d3d773644?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bW91bnRhaW4lMjBjbG91ZHxlbnwwfHwwfHw%3D&w=1000&q=80" style="font-family:Arial,sans-serif;font-size:24px;line-height:28px;font-weight:bold; height:auto;background-image: url(https://images.unsplash.com/photo-1514527893004-f77d3d773644?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bW91bnRhaW4lMjBjbG91ZHxlbnwwfHwwfHw%3D&w=1000&q=80);background-repeat: no-repeat;background-size: cover;text-align:center;">
                                     <p style="padding:20px;text-align:center;color:white;">Presenta tu producto</p>
                                     <p style="padding:20px;color:white;font-size:14px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque molestiae praesentium accusamus doloribus explicabo inventore voluptatem, magni sequi repellat velit nesciunt qui in maxime nihil aliquid! Soluta, recusandae fugit?</p>
@@ -155,7 +156,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td style="font-family:Arial,sans-serif;font-size:24px;line-height:28px;font-weight:bold; height:auto;text-align:center;">
+                                <td style="font-family:Arial,sans-serif;font-size:24px;line-height:28px;font-weight:bold; height:auto;text-align:center;padding:2rem;">
                                     <p style="padding: 5px 10px; font-family:Rockwell; font-weight:bold;font-size:40px;">Te traemos un nuevo Email</p>
                                     <hr style="border: 1px solid #7fa7ba">
                                     <p style="padding:20px;font-size:14px;width:80%;margin: 0 auto;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque molestiae praesentium accusamus doloribus explicabo inventore voluptatem, magni sequi repellat velit nesciunt qui in maxime nihil aliquid! Soluta, recusandae fugit?</p>

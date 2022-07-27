@@ -42,8 +42,8 @@ function sendmailAUTH(){
 		}
 }
 
-echo(file_get_contents("TemplatePokemon.php"));
-echo("Holaaaaa");
+echo(file_get_contents("TemplatePokemon.php"));//plantilla usada de ejemplo
+echo("Texto Ejemplo");
 SendmailAUTH();
 ?>
 					

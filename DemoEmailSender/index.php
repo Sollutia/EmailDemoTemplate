@@ -1,4 +1,5 @@
 <?php
+//Enlazado para usar la version de PhpMailer 6.6.3.
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\SMTP;
@@ -25,7 +26,7 @@ try {
     //Recipients
     $mail->setFrom('miCorreo');
     $mail->addAddress('miCorreo');     //Add a recipient
-
+    $mail->CharSet = 'UTF-8'; 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
     $mail->Subject = 'Titulo';

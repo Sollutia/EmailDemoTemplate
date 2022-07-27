@@ -35,3 +35,4 @@ Se ha colocado un ejemplo adicional del funcionamiento sobre como funciona PHPMa
 -Como Apunte el puerto estandar suele ser el 25, hay que tener cuidado con la encriptacion puesto que si el servidor no tiene hay que obiarlo y si tiene otro puede dar problemas para enviar.
 -Ademas para asignar contenido al cuerpo con formato HTML se recomienda usar la funcion de PHP "file_get_contents".
 -La versiones de PHP usadas son para las pruebas de la version PHPMailer 6.0.0 es la 8.1.7.; para las pruebas de la version de PHPMailer 5.0.0 se ha usado la version de PHP 7.4.9. Estas se ha modificado con XAMPP.
+[Documentacion sobre meta tags](https://responsivehtmlemail.com/html-email-metadata/).

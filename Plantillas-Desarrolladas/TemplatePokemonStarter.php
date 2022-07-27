@@ -1,9 +1,11 @@
-<!DOCTYPE html>
-<html lang="en" xmlns="https://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<!DOCTYPE htmlPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta charset="utf-8">
+  <meta http-equiv="Content-Type: text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="x-apple-disable-message-reformatting">
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
   <!--[if !mso]><-->
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <!--<![endif]-->
@@ -119,7 +121,7 @@
                             </tr>
                             <tr>
                                 <td style="font-family:Arial,sans-serif;font-size:24px;line-height:28px;font-weight:bold; background-color:#0f1a1e;">
-                                    <p style="padding:20px;text-align:center;color:white;">Bienvenido al fantastico Mundo de los Pokemons</p>
+                                    <p style="padding:20px;text-align:center;color:white;">Bienvenido <span>[#nombre]</span> <span>[#apellidos]</span> al fantastico Mundo de los Pokemons</p>
                                 </td>
                             </tr>
                             <tr>
@@ -129,17 +131,17 @@
                             </tr>
                             <tr>
                                 <td style="font-family:Arial,sans-serif;font-size:24px;line-height:28px;font-weight:bold; background-color:#0f1a1e;">
-                                    <p style="padding:20px;text-align:center;color:white;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Elige tu Inicial</p>
+                                    <p style="padding:20px;text-align:center;color:white;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Enhorabuena tu inicial es <span id="starter">[#starter]</span></p>
                                 </td>
                             </tr>
                             <tr>
                                 <td style="font-family:Arial,sans-serif;font-size:24px;line-height:28px;font-weight:bold; background-color:#0f1a1e;">
-                                    <img src="https://external-preview.redd.it/qOrWimzO144FwsApQSW_ib5iGzLvWfuxxRJhHTVrAqc.jpg?width=640&crop=smart&auto=webp&s=d4d221eb0c706b4c28a4223109c05e9493d9acef" width="658" alt="" style="width:100%;height:auto;" />
+                                    <img id="img-starter-1" src="[#img1]" width="658" alt="" style="width:100%;height:auto;" />
                                 </td>
                             </tr>
                             <tr>
                                 <td style="font-family:Arial,sans-serif;font-size:24px;line-height:28px;font-weight:bold; background-color:#0f1a1e;">
-                                    <img src="https://c.tenor.com/gjxJnAFTKNAAAAAi/hoean-staters-pokemon.gif" width="658" alt="" style="width:100%;height:auto;" />
+                                    <img id="img-starter-2" src="[#img2]" width="658" alt="" style="width:100%;height:auto;" />
                                 </td>
                             </tr>
                             <tr>
@@ -158,7 +160,7 @@
                                     <tr>
                                         
                                         <td style="padding-right:5px;width:50%">
-                                            <p>© Pokemon Company PO Box 1688 Bellevue, WA 98009 (USA)</p>
+                                            <p>Pokemon Company PO Box 1688 Bellevue, WA 98009 (USA)</p>
                                             <p>Todos los derechos reservados. Todas las marcas registradas pertenecen a sus respectivos dueños en EE. UU. y otros países.</p>
                                             <br>
                                             <p><a href="#">Anular suscripción</a>  <a href="#">Actualizar mis preferencias</a></p>
@@ -176,7 +178,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <tdclass="content-block powered-by" style="font-family: sans-serif; vertical-align: top; padding-bottom: 10px; padding-top: 10px; color: #999999; font-size: 12px; text-align: center;" valign="top" align="center">
+                                                <td class="content-block powered-by" style="font-family: sans-serif; vertical-align: top; padding-bottom: 10px; padding-top: 10px; color: #999999; font-size: 12px; text-align: center;" valign="top" align="center">
                                                     <a class="spaced-link" href="tel:+34965885309" style="text-decoration: underline; padding: 12px 12px 12px 12px; color: #999999; font-size: 11px; text-align: center;">Tel.: +34 96 588 53 09</a>
                                                     <a class="spaced-link" href="tel:+34965885309" style="text-decoration: underline; padding: 12px 12px 12px 12px; color: #999999; font-size: 11px; text-align: center;">Tel.: +34 96 588 53 09</a>
                                                     <a class="spaced-link" href="tel:+34965885309" style="text-decoration: underline; padding: 12px 12px 12px 12px; color: #999999; font-size: 11px; text-align: center;">Tel.: +34 96 588 53 09</a>
@@ -186,11 +188,12 @@
                                             <tr>
                                                 <td class="content-block" style="font-family: sans-serif; vertical-align: top; padding-bottom: 10px; padding-top: 10px; color: #999999; font-size: 12px; text-align: center;" valign="top" align="center">
                                                 <span class="apple-link" style="color: #999999; font-size: 12px; text-align: center;">Company Inc, False Street 123, Springfield OR 94102</span>
-                                                <br> Don't like these emails? <a href="http://i.imgur.com/CScmqnj.gif" style="text-decoration: underline; color: #999999; font-size: 12px; text-align: center;">Unsubscribe</a>.
+                                                <br> Don't like these emails? <a href="#" style="text-decoration: underline; color: #999999; font-size: 12px; text-align: center;">Unsubscribe</a>.
                                                 </td>
                                             </tr>
                                             <tr>
-                                            <td class="content-block powered-by" style="font-family: sans-serif; vertical-align: top; padding-bottom: 10px; padding-top: 10px; color: #999999; font-size: 12px; text-align: center;" valign="top" align="center">
+                                            <td class="content-block powered-by"
+                                         style="font-family: sans-serif; vertical-align: top; padding-bottom: 10px; padding-top: 10px; color: #999999; font-size: 12px; text-align: center;" valign="top" align="center">
                                                 Powered by <a href="#" style="color: #999999; font-size: 12px; text-align: center; text-decoration: none;">Enlace</a>.
                                             </td>
                                             </tr>
